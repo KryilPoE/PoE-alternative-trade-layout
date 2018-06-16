@@ -24,7 +24,7 @@ if (typeof GM_addStyle == 'undefined') {
     };
 }
 
-(function () {
+(function() {
     'use strict';
 
     GM_addStyle("* {font-family: Helvetica !important;}");
@@ -34,8 +34,8 @@ if (typeof GM_addStyle == 'undefined') {
     GM_addStyle(".results .resultset .row:not(.exchange) .left {position: relative;height:inherit;width: 30%;margin-bottom:175px;}");
     GM_addStyle(".results .resultset .row:not(.exchange) .left .copy {top: 8px;right: 8px;left: inherit;");
     GM_addStyle(".results .resultset .row:not(.exchange) .left .searchBy {top: 8px;right: 38px;left: inherit;");
-    GM_addStyle(".results .resultset .row:not(.exchange) .middle {padding-right:0.5rem;width: 30%;}");
-    GM_addStyle(".results .resultset .row:not(.exchange) .right {position: absolute;left:20%;bottom:3px;width: 30%;}");
+    GM_addStyle(".results .resultset .row:not(.exchange) .middle {padding-right:0.5rem;width: 70%;}");
+    GM_addStyle(".results .resultset .row:not(.exchange) .right {position: absolute;left: 0;bottom:3px;width: 30%;}");
     GM_addStyle(".row:not(.exchange) .right .btns {display:flex}");
     GM_addStyle(".row:not(.exchange) .right .btns > .pull-right {margin-left: auto!important}");
     GM_addStyle(".ignore-btn {font-size: 0px!important;border: 1px solid rgb(150, 0, 0) !important;}");
